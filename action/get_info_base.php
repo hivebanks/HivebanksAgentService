@@ -1,10 +1,11 @@
 <?php
+die(1);
 require_once '../inc/common.php';
 require_once 'db/la_base.php';
 require_once 'db/com_option_config.php';
 header("cache-control:no-cache,must-revalidate");
 header("Content-Type:application/json;charset=utf-8");
-die(1);
+
 php_begin();
 if (!isset($_SESSION)) {
     session_start();
