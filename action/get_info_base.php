@@ -1,5 +1,5 @@
 <?php
-die(1);
+var_dump("ss");die(1);
 require_once '../inc/common.php';
 require_once 'db/la_base.php';
 require_once 'db/com_option_config.php';
