@@ -29,7 +29,7 @@ if (!$row)
 $callback = array();
 $ret = send_email($name='', $email, $title, $body);
 $log_data = array();
-var_dump($ret);die;
+
 if(!$ret){
     $data_log['status'] = 0;
     $data_log['log_id'] = get_guid();
