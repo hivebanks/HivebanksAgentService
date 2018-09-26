@@ -21,7 +21,7 @@ function send_email($name='', $email, $title, $body)
     $mail->Host       = 'smtp.163.com';
     $mail->Port       = 994;
     $mail->Username   = 'hivebanks@163.com';
-    $mail->Password   = 'winwind2018';
+    $mail->Password   = '0505Windwin';
     $mail->CharSet    = "utf-8";
     $mail->SetFrom('hivebanks@163.com', 'hivebanks');
     $mail->Subject    = $title;
