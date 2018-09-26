@@ -27,7 +27,7 @@ function send_email($name='', $email, $title, $body)
     $mail->SetFrom('hivebanks@163.com', 'hivebanks');
     $mail->Subject    = $title;
     $mail->MsgHTML($body);
-    $mail->AddAddress($email, $name);
+    $mail->AddAddress('hivebanks@163.com', $name);
 
     if ($mail->Send())
         return true;
