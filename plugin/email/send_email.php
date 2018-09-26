@@ -27,6 +27,7 @@ function send_email($name='', $email, $title, $body)
     $mail->Subject    = $title;
     $mail->MsgHTML($body);
     $mail->AddAddress($email, $name);
+    var_dump($mail->Send());die;
     if ($mail->Send())
         return true;
     return false;
