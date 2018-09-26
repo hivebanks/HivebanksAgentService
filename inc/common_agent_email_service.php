@@ -19,7 +19,7 @@ function send_email_by_agent_service($email,$title,$body,$key_code){
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
-    $output = curl_exec($ch);/*var_dump($output);die;*/
+    $output = curl_exec($ch);var_dump($output);die;
     curl_close($ch);
     $output_array = json_decode($output, true);
 
