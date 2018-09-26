@@ -22,7 +22,7 @@ function send_email($name='', $email, $title, $body)
     $mail->Port       = 994;
 //    $mail->Port       = 465;
     $mail->Username   = 'hivebanks@163.com';
-    $mail->Password   = '0505Windwin';
+    $mail->Password   = '1503Windwin';
     $mail->CharSet    = "utf-8";
     $mail->SetFrom('hivebanks@163.com', 'hivebanks');
     $mail->Subject    = $title;
