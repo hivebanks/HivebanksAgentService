@@ -26,7 +26,7 @@ function send_email($name='', $email, $title, $body)
     $mail->CharSet    = "utf-8";
     $mail->SetFrom('hivebanks@163.com', 'hivebanks');
     $mail->Subject    = $title;
-    $mail->MsgHTML('尊敬的领导老师');
+    $mail->MsgHTML($body);
     $mail->AddAddress($email, $name);
 
     if ($mail->Send())
