@@ -110,7 +110,7 @@ if ($row) {
 
     $la_id = '041CF267-77D2-2465-2EFF-B93237C12E23';
     $output_array = send_email_by_agent_service($email, $title, $body, $la_id);
-var_dump($output_array);die;
+
     if ($output_array["errcode"] == "0") {
         $ret = ins_reg_info($data_base);
         if ($ret) {
