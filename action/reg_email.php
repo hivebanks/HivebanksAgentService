@@ -49,7 +49,7 @@ $variable = 'email';
 $timestamp = time();
 // 判断邮箱是否已存在
 $row = get_us_id_by_variable($email);
-
+var_dump($row);die;
 if ($row) {
     if ($row["flag"] == 1)
         exit_error("1", "该邮箱已注册");
