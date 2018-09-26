@@ -49,7 +49,7 @@ $variable = 'email';
 $timestamp = time();
 // 判断邮箱是否已存在
 $row = get_us_id_by_variable($email);
-var_dump($row);die;
+
 if ($row) {
     if ($row["flag"] == 1)
         exit_error("1", "该邮箱已注册");
@@ -110,7 +110,7 @@ if ($row) {
 
     $la_id = '041CF267-77D2-2465-2EFF-B93237C12E23';
     $output_array = send_email_by_agent_service($email, $title, $body, $la_id);
-
+var_dump($output_array);die;
     if ($output_array["errcode"] == "0") {
         $ret = ins_reg_info($data_base);
         if ($ret) {
