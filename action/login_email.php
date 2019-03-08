@@ -30,7 +30,7 @@ chk_empty_args('POST', $args);
 $timestamp = time();
 // Email地址
 $email = get_arg_str('POST', 'email', 255);
-echo $email;
+return $email;
 //// 密码HASH
 //$pass_word_hash = get_arg_str('POST', 'pass_word_hash');
 //// 验证码
