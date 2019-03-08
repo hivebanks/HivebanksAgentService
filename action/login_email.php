@@ -21,9 +21,7 @@ GET参数
 */
 
 php_begin();
-if (!isset($_SESSION)) {
-    session_start();
-}
+
 $args = array('email', 'pass_word_hash','cfm_code');
 chk_empty_args('POST', $args);
 
@@ -38,14 +36,12 @@ $cfm_code = get_arg_str('POST', 'cfm_code');
 $salt = rand(10000000, 99999999);
 // 密钥
 $key = Config::TOKEN_KEY;
-echo 2222;
 // 判断email地址是否有效
 $is_email = isEmail($email);
 if(!$is_email){
     exit_error('109','Email format not correct!');
 }
-if ($cfm_code != $_SESSION["authcode"])
-    exit_error("139","图形验证码有误");
+
 // 记录数组
 $row_fail = array();
 $variable = 'email';
