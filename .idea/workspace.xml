@@ -51,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg_email.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reg_email.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/action/reg_email.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -64,18 +64,18 @@
       <file leaf-file-name="sms_send.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms/sms_send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="190">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_email.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login_email.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/action/login_email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
-              <caret line="83" column="17" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="17" />
+            <state relative-caret-position="437">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -88,6 +88,7 @@
       <list>
         <option value="$PROJECT_DIR$/plugin/sms/sendSms.php" />
         <option value="$PROJECT_DIR$/sms/transfer_sms_send.php" />
+        <option value="$PROJECT_DIR$/action/login_email.php" />
       </list>
     </option>
   </component>
@@ -267,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549184445878</updated>
       <workItem from="1549184447701" duration="1710000" />
-      <workItem from="1552011662509" duration="2246000" />
+      <workItem from="1552011662509" duration="2354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3956000" />
+    <option name="totallyTimeSpent" value="4064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -381,14 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action/login_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin/sms/sendSms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2660">
@@ -397,18 +390,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sms/sms_send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action/reg_email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms/sms_send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action/login_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>

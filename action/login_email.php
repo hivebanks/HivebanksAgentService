@@ -25,15 +25,15 @@ if (!isset($_SESSION)) {
     session_start();
 }
 $args = array('email', 'pass_word_hash','cfm_code');
-chk_empty_args('GET', $args);
+chk_empty_args('POST', $args);
 
 $timestamp = time();
 // Email地址
-$email = get_arg_str('GET', 'email', 255);
+$email = get_arg_str('POST', 'email', 255);
 // 密码HASH
-$pass_word_hash = get_arg_str('GET', 'pass_word_hash');
+$pass_word_hash = get_arg_str('POST', 'pass_word_hash');
 // 验证码
-$cfm_code = get_arg_str('GET', 'cfm_code');
+$cfm_code = get_arg_str('POST', 'cfm_code');
 // 加盐加密代码
 $salt = rand(10000000, 99999999);
 // 密钥
